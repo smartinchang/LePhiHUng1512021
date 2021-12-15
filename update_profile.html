@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cập nhật thông tin thành viên</title>
+	</head>
+	<body>
+		<form name="login_form" action="update_profile.php" method="POST">
+			<table>
+				<tr><td>Họ</td><td><input type="text" name="lastname"></td></tr>
+				<tr><td>Tên</td><td><input type="text" name ="firstname"></td></tr>
+				<tr><td>Ngày sinh</td><td><input type="date" name ="birthday"></td></td></tr>
+				<tr>
+					<td>Giới tính</td>
+					<td>
+						<select id="gender">
+							<option value="0">Nam</option>
+							<option value="1">Nữ</option>
+						</select>
+					</td>
+				</tr>
+				<tr><td>Địa chỉ</td><td><input type="text" name ="address"></td></tr>
+				<tr><td>Quốc tịch</td><td><input type="text" name ="nationality"></td></tr>
+				<tr><td colspan="2" align="center"><button type="submit" value="Submit">Cập nhật</button></td></tr>
+			</table>
+		</form>
+	</body>
+</html>
